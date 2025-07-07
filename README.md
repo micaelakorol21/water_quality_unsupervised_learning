@@ -6,8 +6,11 @@
 
 ### 🧾 Descripción del Proyecto:
 
-**Este proyecto tiene como objetivo desarrollar un modelo de machine learning capaz de predecir si una muestra de agua es potable o no potable, utilizando algoritmos de aprendizaje no supervisado.**  
-Se utilizan parámetros físico-químicos como pH, turbidez, color, olor, plomo, cobre, flúor, cloruro, entre otros, que son comparados con los límites establecidos por el **Código Alimentario Argentino (CAA)**. La variable objetivo (`Target`) indica si la muestra es potable (`1`) o no (`0`).
+**Este proyecto tiene como objetivo desarrollar un modelo de machine learning capaz de predecir si una muestra de agua es potable o no potable, utilizando algoritmos de aprendizaje no supervisado.**
+Se emplean parámetros físico-químicos como pH, turbidez, color, olor, plomo, cobre, flúor, cloruro, entre otros, que son comparados con los límites establecidos por el Código Alimentario Argentino (CAA).
+
+Aunque el dataset cuenta con una columna llamada "Objetivo", que indica si el agua es potable o no, en este trabajo se busca explorar **técnicas de aprendizaje no supervisado**, como el clustering, para analizar si los datos permiten identificar agrupamientos consistentes que reflejen la calidad del agua sin usar directamente esa etiqueta.**  
+
 
 Este modelo puede servir como una herramienta de apoyo para el monitoreo de la calidad del agua, especialmente en zonas donde los análisis de laboratorio son costosos o inaccesibles.
 
